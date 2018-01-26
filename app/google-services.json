@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "724647283745",
+    "firebase_url": "https://bloxorz-358e5.firebaseio.com",
+    "project_id": "bloxorz-358e5",
+    "storage_bucket": "bloxorz-358e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724647283745:android:655b52cc1761e2af",
+        "android_client_info": {
+          "package_name": "axxel.bloxorz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724647283745-ao3gt4ld36p2g7fbt4mjhqbgtb32ip43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "axxel.bloxorz",
+            "certificate_hash": "86d74acdae7ec650674c9fad9c16471e7dd04841"
+          }
+        },
+        {
+          "client_id": "724647283745-m1uuclc95iu098a8mtokcnvni3ftond8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfm9jtH2kp4xR97GAb8pR3MOFAbhlTcDI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724647283745-m1uuclc95iu098a8mtokcnvni3ftond8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

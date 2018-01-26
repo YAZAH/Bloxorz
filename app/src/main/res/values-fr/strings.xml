@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bloxorz</string>
+    <string name="play">Jouer</string>
+    <string name="instructions">Instructions</string>
+    <string name="instruc">
+"Le but du jeu est de déplacer le bloc et d'arriver à le faire tomber dans le trou pour passer au niveau suivant.
+Attention cependant à ne pas tomber sur les bords, sinon le level sera redemarré.
+De plus, ce n'est pas si facile que ça en a l'air, certaines dalles ont leur propre fonctionnement, saurez-vous les comprendre?
+Pour déplacer le bloc, 4 boutons sont mis à votre disposition ainsi qu'un 5ème qui s'active dans certains cas.
+Vous pouvez également déplacer le bloc en glissant votre doigt sur l'écran vers la direction souhaitée.
+
+Amusez-vous bien!"</string>
+    <string name="FloodEmAll">"Découvrez Flood'Em All !"</string>
+    <string name="Bloxorz">"Noter Bloxorz"</string>
+    <string name="LevelSelection"><b>Level Selection</b></string>
+    <string name="exit">Quitter</string>
+    <string name="please_select_your_level">Choisissez votre level</string>
+    <string name="menu">Menu</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="_10">10</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_12">12</string>
+    <string name="_11">11</string>
+    <string name="_20">20</string>
+    <string name="_19">19</string>
+    <string name="_18">18</string>
+    <string name="_17">17</string>
+    <string name="_16">16</string>
+    <string name="_15">15</string>
+    <string name="_14">14</string>
+    <string name="_13">13</string>
+    <string name="_22">22</string>
+    <string name="_21">21</string>
+    <string name="_30">30</string>
+    <string name="_29">29</string>
+    <string name="_28">28</string>
+    <string name="_27">27</string>
+    <string name="_26">26</string>
+    <string name="_25">25</string>
+    <string name="_24">24</string>
+    <string name="_23">23</string>
+    <string name="_33">33</string>
+    <string name="_32">32</string>
+    <string name="_31">31</string>
+    <string name="OK">Compris !</string>
+</resources>

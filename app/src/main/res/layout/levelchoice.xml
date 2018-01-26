@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/returnToMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:layout_below="@+id/Bloxorz"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:onClick="onButtonClick"/>
+
+    <TextView
+        android:id="@+id/Bloxorz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="100sp"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/LevelSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Bloxorz"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="@string/please_select_your_level"
+        android:layout_alignBaseline="@id/returnToMenu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFF" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/LevelSelection"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Level1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_2"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_3"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel"/>
+            <Button
+                android:id="@+id/Level4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_4"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_5"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_6"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_7"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Level8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_8"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel"/>
+            <Button
+                android:id="@+id/Level9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_9"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_10"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_11"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_12"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_13"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel"/>
+            <Button
+                android:id="@+id/Level14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_14"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Level15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_15"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_16"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_17"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_18"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel"/>
+            <Button
+                android:id="@+id/Level19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_19"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_20"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_21"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center">
+            <Button
+                android:id="@+id/Level22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_22"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_23"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel"/>
+            <Button
+                android:id="@+id/Level24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_24"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_25"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_26"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_27"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel" />
+            <Button
+                android:id="@+id/Level28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_28"
+                android:onClick="onButtonClick"
+                android:background="@drawable/btnlevel"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+                android:gravity="center">
+                <Button
+                    android:id="@+id/Level29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_29"
+                    android:onClick="onButtonClick"
+                    android:background="@drawable/btnlevel" />
+                <Button
+                    android:id="@+id/Level30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_30"
+                    android:onClick="onButtonClick"
+                    android:background="@drawable/btnlevel" />
+                <Button
+                    android:id="@+id/Level31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_31"
+                    android:onClick="onButtonClick"
+                    android:background="@drawable/btnlevel" />
+                <Button
+                    android:id="@+id/Level32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_32"
+                    android:onClick="onButtonClick"
+                    android:background="@drawable/btnlevel" />
+                <Button
+                    android:id="@+id/Level33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_33"
+                    android:onClick="onButtonClick"
+                    android:background="@drawable/btnlevel"/>
+            </LinearLayout>
+    </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
