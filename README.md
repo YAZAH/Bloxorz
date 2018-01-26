@@ -1,4 +1,3 @@
-"# Bloxorz" 
-[google] (https://play.google.com/store/apps/details?id=axxel.bloxorz "Bloxorz")
+"# Bloxorz"
 
-<a href="http://www.google.com" title="link to google">google</a>
+<a href="https://play.google.com/store/apps/details?id=axxel.bloxorz" title="link to Bloxorz">Bloxorz</a>
